@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC07FB141A67249400C089F4 /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07FB131A67249400C089F4 /* SlotBrain.swift */; };
 		DCF4EC271A66DE9100637897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4EC261A66DE9100637897 /* AppDelegate.swift */; };
 		DCF4EC291A66DE9100637897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4EC281A66DE9100637897 /* ViewController.swift */; };
 		DCF4EC2C1A66DE9200637897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF4EC2A1A66DE9100637897 /* Main.storyboard */; };
 		DCF4EC2E1A66DE9200637897 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF4EC2D1A66DE9200637897 /* Images.xcassets */; };
 		DCF4EC311A66DE9200637897 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCF4EC2F1A66DE9200637897 /* LaunchScreen.xib */; };
 		DCF4EC3D1A66DE9200637897 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4EC3C1A66DE9200637897 /* SlotMachineTests.swift */; };
+		DCF4EC471A66F6BB00637897 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4EC461A66F6BB00637897 /* Slot.swift */; };
+		DCF4EC981A66F82300637897 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF4EC971A66F82300637897 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC07FB131A67249400C089F4 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 		DCF4EC211A66DE9100637897 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF4EC251A66DE9100637897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCF4EC261A66DE9100637897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		DCF4EC361A66DE9200637897 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF4EC3B1A66DE9200637897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCF4EC3C1A66DE9200637897 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		DCF4EC461A66F6BB00637897 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		DCF4EC971A66F82300637897 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				DCF4EC261A66DE9100637897 /* AppDelegate.swift */,
 				DCF4EC281A66DE9100637897 /* ViewController.swift */,
+				DC07FB131A67249400C089F4 /* SlotBrain.swift */,
+				DCF4EC461A66F6BB00637897 /* Slot.swift */,
+				DCF4EC971A66F82300637897 /* Factory.swift */,
 				DCF4EC2A1A66DE9100637897 /* Main.storyboard */,
 				DCF4EC2D1A66DE9200637897 /* Images.xcassets */,
 				DCF4EC2F1A66DE9200637897 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF4EC981A66F82300637897 /* Factory.swift in Sources */,
 				DCF4EC291A66DE9100637897 /* ViewController.swift in Sources */,
+				DCF4EC471A66F6BB00637897 /* Slot.swift in Sources */,
 				DCF4EC271A66DE9100637897 /* AppDelegate.swift in Sources */,
+				DC07FB141A67249400C089F4 /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				DCF4EC421A66DE9200637897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCF4EC431A66DE9200637897 /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				DCF4EC451A66DE9200637897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
